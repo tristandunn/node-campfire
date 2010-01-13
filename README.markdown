@@ -27,5 +27,4 @@ Received unknown message:
 
 ## Known Issues
 
-* The user must already be in the room.
 * The web interface stops updating for the user once a message is sent.

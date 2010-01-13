@@ -7,15 +7,17 @@ Campfire.initialize({
   room_id : 'YOUR_DEFAULT_ROOM_ID'
 });
 
-Campfire.listen(function(message) {
-  if (message.body == 'PING') {
-    system.puts('PING received.');
+Campfire.join(function() {
+  Campfire.listen(function(message) {
+    if (message.body == 'PING') {
+      system.puts('PING received.');
 
-    Campfire.say('PONG', function(data) {
-      system.puts('PONG sent at ' + data.message.created_at + '.');
-    });
-  } else {
-    system.puts('Received unknown message:');
-    system.puts(system.inspect(message));
-  }
+      Campfire.say('PONG', function(data) {
+        system.puts('PONG sent at ' + data.message.created_at + '.');
+      });
+    } else {
+      system.puts('Received unknown message:');
+      system.puts(system.inspect(message));
+    }
+  });
 });
