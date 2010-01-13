@@ -1,5 +1,5 @@
 var system   = require('sys');
-var Campfire = require('../lib/campfire');
+var Campfire = require('../lib/campfire').Campfire;
 
 Campfire.initialize({
   token   : 'YOUR_TOKEN',
