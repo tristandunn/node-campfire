@@ -11,7 +11,7 @@ Use node.js to interact with Campfire chat rooms.
 
 ### Sample Output
 
-<pre><code>$ node examples/ping.js
+<pre>$ node examples/ping.js
 PING received.
 PONG sent at 2010/01/13 01:00:00 +0000.
 Received unknown message:
@@ -22,9 +22,15 @@ Received unknown message:
  "user_id": 1,
  "room_id": 1,
  "created_at": "2010-01-13 01:00:00"
-}
-</pre></code>
+}</pre>
 
 ## Known Issues
 
 * The web interface stops updating for the user once a message is sent.
+
+## To-Do
+
+* Support more API methods.
+* Support other message types.
+* Option to ignore messages from the current user when listening.
+* Automatically look-up, cache, and merge user and room information into responses.
