@@ -31,5 +31,4 @@ Received unknown message:
 ## To-Do
 
 * Support more API methods.
-* Option to ignore messages from the current user when listening.
 * Automatically look-up, cache, and merge user and room information into responses.
