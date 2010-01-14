@@ -31,4 +31,3 @@ Received unknown message:
 ## To-Do
 
 * Support more API methods.
-* Automatically look-up, cache, and merge user and room information into responses.
