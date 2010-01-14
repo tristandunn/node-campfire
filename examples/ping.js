@@ -3,16 +3,17 @@ var Campfire = require('../lib/campfire').Campfire;
 
 Campfire.initialize({
   token   : 'YOUR_TOKEN',
-  account : 'YOUR_ACCOUNT',
-  room_id : 'YOUR_DEFAULT_ROOM_ID'
+  account : 'YOUR_ACCOUNT'
 });
 
-Campfire.join(function() {
-  Campfire.listen(function(message) {
+var
+room = Campfire.Room(ROOM_ID);
+room.join(function() {
+  room.listen(function(message) {
     if (message.body == 'PING') {
       system.puts('PING received.');
 
-      Campfire.say('PONG', function(data) {
+      room.speak('PONG', function(data) {
         system.puts('PONG sent at ' + data.message.created_at + '.');
       });
     } else {
