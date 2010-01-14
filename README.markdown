@@ -31,3 +31,5 @@ Received unknown message:
 ## To-Do
 
 * Support more API methods.
+* Add users to cache when joining.
+* Remove users from cache when leaving.
