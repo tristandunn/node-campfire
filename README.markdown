@@ -32,4 +32,3 @@ Received unknown message:
 
 * Better error handling.
 * Support more API methods.
-* Refactor methods, such as Campfire.get and Campfire.post.
