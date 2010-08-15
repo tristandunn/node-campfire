@@ -4,7 +4,7 @@ Use node.js to interact with Campfire chat rooms.
 
 ## Example
 
-1. Install [node.js](http://nodejs.org).
+1. Install [node.js](http://github.com/ry/node).
 2. Change `YOUR_ACCOUNT`, `YOUR_TOKEN` and `ROOM_ID` in [examples/ping.js](http://github.com/tristandunn/node-campfire/blob/master/examples/ping.js).
 3. Run the example with `node examples/ping.js`.
 4. Send a "PING" message to the room you set in the configuration via the web interface.
@@ -32,6 +32,11 @@ Use node.js to interact with Campfire chat rooms.
 
 * Better error handling.
 * Support more API methods.
+
+## Contributors
+
+* [Aaron Quint](http://github.com/quirkey)
+* [Jon Ursenbach](http://github.com/jonursenbach)
 
 ## License
 
