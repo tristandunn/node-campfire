@@ -24,11 +24,7 @@ Use node.js to interact with Campfire chat rooms.
      "created_at": "2010-01-13 01:00:00"
     }
 
-## Known Issues
-
-* The web interface stops updating for the user once a message is sent.
-
-## To-Do
+## To-do
 
 * Better error handling.
 * Support more API methods.
@@ -42,7 +38,7 @@ Use node.js to interact with Campfire chat rooms.
 
 The MIT License
 
-Copyright (c) 2010 Tristan Dunn
+Copyright (c) 2011 Tristan Dunn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
