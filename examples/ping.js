@@ -1,12 +1,12 @@
 var system   = require('sys');
 var Campfire = require('../lib/campfire').Campfire;
 
-var yourCampfire = new Campfire({
+var instance = new Campfire({
   token   : 'YOUR_TOKEN',
   account : 'YOUR_ACCOUNT'
 });
 
-yourCampfire.room(ROOM_ID_OR_NAME, function(room) {
+instance.room(ROOM_ID_OR_NAME, function(room) {
   room.join(function() {
     room.listen(function(message) {
       if (message.body == 'PING') {
