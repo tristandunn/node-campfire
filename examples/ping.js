@@ -2,6 +2,7 @@ var system   = require('sys');
 var Campfire = require('../lib/campfire').Campfire;
 
 var instance = new Campfire({
+  ssl     : false,
   token   : 'YOUR_TOKEN',
   account : 'YOUR_ACCOUNT'
 });
