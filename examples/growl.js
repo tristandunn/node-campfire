@@ -7,7 +7,7 @@ var instance = new Campfire({
   account : 'YOUR_ACCOUNT'
 });
 
-instance.room(ROOM_ID_OR_NAME, function(room) {
+instance.room(ROOM_ID, function(room) {
   room.join(function() {
     room.listen(function(message) {
       // Ignore emotes, sounds, timestamps, etc.
