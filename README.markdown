@@ -26,11 +26,6 @@ Received unknown message:
 }
 ~~~
 
-## Contributors
-
-* [Aaron Quint](http://github.com/quirkey)
-* [Jon Ursenbach](http://github.com/jonursenbach)
-
 ## License
 
 node-campfire uses the MIT license. See LICENSE for more details.
