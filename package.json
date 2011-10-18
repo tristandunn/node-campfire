@@ -1,0 +1,26 @@
+{ "name"         : "campfire",
+  "version"      : "0.1.0",
+  "description"  : "Use node.js to interact with Campfire.",
+  "keywords"     : ["chat", "campfire", "CF"],
+  "homepage"     : "https://github.com/tristandunn/node-campfire",
+  "author"       : "Tristan Dunn <hello@tristandunn.com> (http://tristandunn.com)",
+  "contributors" : [
+    "Aaron Quint <aaron@quirkey.com> (http://www.quirkey.com)",
+    "Brian Donovan (http://brian-donovan.com)",
+    "Jon Ursenbach <jon@ursenba.ch> (http://jon.ursenba.ch)"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url"  : "http://github.com/tristandunn/node-campfire.git"
+  },
+  "bugs" : {
+    "web"  : "https://github.com/tristandunn/node-campfire/issues",
+    "mail" : "hello@tristandunn.com"
+  },
+  "main"     : "./lib/campfire",
+  "licenses" : [
+    { "type" : "MIT",
+      "url"  : "https://github.com/tristandunn/node-campfire/blob/master/LICENSE"
+    }
+  ]
+}
