@@ -14,7 +14,7 @@
     "url"  : "http://github.com/tristandunn/node-campfire.git"
   },
   "bugs" : {
-    "web"  : "https://github.com/tristandunn/node-campfire/issues",
+    "url"  : "https://github.com/tristandunn/node-campfire/issues",
     "mail" : "hello@tristandunn.com"
   },
   "main"     : "./lib/campfire",
