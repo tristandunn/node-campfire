@@ -1,4 +1,4 @@
-var system   = require("sys");
+var exec     = require("child_process").exec;
 var Campfire = require("../lib/campfire").Campfire;
 
 var instance = new Campfire({
@@ -29,9 +29,9 @@ instance.join(ROOM_ID, function(error, room) {
     var
     command = "/usr/local/bin/growlnotify";
     command += " -t '" + message.user.name + "'";
-    command += " -m '" + message.body.replace("'", "'") + "'";
+    command += " -m '" + message.body.replace("'", '"') + "'";
     command += " --image 'examples/images/icon.png'";
 
-    system.exec(command);
+    exec(command, { timeout: 5 });
   });
 });
