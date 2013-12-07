@@ -2,7 +2,7 @@ var exec     = require("child_process").exec;
 var Campfire = require("../lib/campfire").Campfire;
 
 var instance = new Campfire({
-  ssl     : false,
+  ssl     : true,
   token   : "YOUR_TOKEN",
   account : "YOUR_ACCOUNT"
 });
