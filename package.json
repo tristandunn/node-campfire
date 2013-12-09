@@ -1,5 +1,5 @@
 { "name"         : "campfire",
-  "version"      : "0.1.1",
+  "version"      : "0.2.0",
   "description"  : "Use node.js to interact with Campfire.",
   "keywords"     : ["chat", "campfire", "CF"],
   "homepage"     : "https://github.com/tristandunn/node-campfire",
